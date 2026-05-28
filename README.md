@@ -25,8 +25,7 @@ Re-run `refresh-data` whenever you want fresher data.
 ```
 service-finder/
 ├── public/
-│   ├── data/providers.geojson    # baked snapshot from NYC Open Data
-│   └── config/runtime-config.json
+│   └── data/providers.geojson    # baked snapshot from NYC Open Data
 ├── scripts/refresh-data.mjs      # Socrata → GeoJSON
 └── src/
     ├── App.jsx
